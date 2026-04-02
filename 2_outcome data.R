@@ -3,7 +3,6 @@ library("vroom")
 library("dplyr")
 library("TwoSampleMR")
 library("openxlsx")
-source("scripts/func_read_outcome_data.R")
 
 #Phenotype one by one
 data_endpoint<-vroom("data/endpoint_filter.csv")
